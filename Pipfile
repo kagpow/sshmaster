@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pony = "*"
+aiohttp = { extras = ["asyncio"], version = "*" }
+fastapi = "*"
+pydantic = "*"
+aiohttp-socks = "*"
+psutil = "*"
+aiofiles = "*"
+jinja2 = "*"
+websockets = "*"
+python-multipart = "*"
+asyncssh = "*"
+cryptography = "*"
+hypercorn = "*"
+pendulum = "*"
+pyparsing = "*"
+async-timeout = "*"
+
+[dev-packages]
+pyinstaller = "*"
+pyinstrument = "*"
+pony-stubs = "*"
+
+[requires]
+python_version = "3.9"
